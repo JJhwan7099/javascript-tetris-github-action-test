@@ -6,7 +6,7 @@ name: build and deploy tetris
 
 on:
   push:
-    branches: [ "main" ]  # main 브랜치에 push될 때만 실행됨
+    branches: [ "master" ]  # main 브랜치에 push될 때만 실행됨
 
 # Actions에서 코드 내용을 읽을 수 있도록 설정
 permissions:
